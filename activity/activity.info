@@ -1,0 +1,7 @@
+[Activity]
+name = Ayuda
+activity_version = 1
+service_name = org.laptop.ActividadAyudaTZ
+icon = activity-help
+class = helpactivity.HelpActivity
+license = GPLv3

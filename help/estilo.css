@@ -1,0 +1,163 @@
+@charset "utf-8";
+div#menu{
+	position:relative;
+	padding-top:10px;
+}
+#menu{
+	border: 0px solid black;
+	border-bottom-width: 0;
+	width: 185px;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+#menu li a{
+	display: block;
+	padding: 3px 0;
+	padding-left: 9px;
+	width: 169px;
+	text-decoration: none;
+	color:#000099;
+	border-bottom: 1px solid #90bade;
+	border-left: 7px solid #00CCFF;
+	background-color:#00FFFF;
+}
+
+#menu li a:hover {
+	background-color:#00CCFF;
+	border-left-color: #0099FF
+}
+#menu div#titulo{
+	color: white;
+	border-right: 1px solid #009933;	
+	padding: 1px 0;
+	padding-left: 5px;
+	background-color: #0066CC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+div#contenido{
+	position:fixed;
+	top: 10px;
+	left: 230px;
+	width:800px;
+	text-align:justify;
+	
+	height: 480px;
+	width: 770px;
+	overflow: auto;
+	border:none;
+	padding: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div#contenido2{
+	position:fixed;
+	top: 115px;
+	left: 230px;
+	width:800px;
+	text-align:justify;
+	
+	height: 380px;
+	width: 770px;
+	overflow: auto;
+	border:none;
+	padding: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div#contenido2 div#menudos{
+	background-color:#0099CC;
+	color:#FFFFFF;
+	padding: 3px 3px 3px 3px;
+	position:fixed;
+	width:725px;
+	height:110px;
+	top: 0px;
+	left:239px;
+	font-size:14px;
+}
+
+div#contenido2 div a{
+	text-decoration:none;
+	color:#FFFFFF;
+	vertical-align: top;
+}
+img{
+	border:none;
+}
+.titulo{
+	color:#000066;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.subtitulo{
+	color:#000066;
+	font-weight: bold;
+}
+.sub1{
+	text-decoration: underline;
+	text-align: left;
+}
+.tt2{
+	font-weight: bold;
+	font-size:14px;
+}
+/*Azul*/
+.c1{
+	text-align: left;
+	/*color:#4F81BD;*/
+	color:#0033CC;
+}
+/*Rojo*/
+.c2{
+	text-align: left;
+	/*color:#C0504D;*/
+	color:#9D0000;
+}	
+/*Verde*/
+.c3{
+	text-align: left;
+	color:#006600;
+}
+/*Morado*/	
+.c4{
+	text-align: left;
+	color:#8064A2;
+}
+/*Celeste*/	
+.c5{
+	text-align: left;
+	color:#4BACC6;
+}
+/*Naranja*/	
+.c6{
+	text-align: left;
+	/*color:#F79646;*/
+	color:#FF6600;
+}
+/*Negro*/
+.c7{
+	text-align: left;
+	color:#000000;
+}
+/*Rosa*/
+.c8{
+	text-align: left;
+	color:#BF0D59;
+}
+/*Oro*/
+.c9{
+	text-align: left;
+	color:#FFCC00;
+}
+
+.i{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+}			
